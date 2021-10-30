@@ -9,7 +9,7 @@ cout <<"Enter duration in years:"; cin>>n; cout <<"\n";
 Si=p*r*n;
 Si /=100;
 cout<<"Simple Interest is  :  "<<Si<<"\n";
-Co= p*pow(1+r/100 , n)-p;
+Co= p*pow((1+r/100) , n);
 cout<<"Compound Interest is  :  "<<Co;
 return 0; 
 }
